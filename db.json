@@ -9,6 +9,13 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "tokens": {
+      "admin": {
+        "token": "admin-token"
+      },
+      "editor": {
+        "token": "editor-token"
+      }
+    }
   }
 }
