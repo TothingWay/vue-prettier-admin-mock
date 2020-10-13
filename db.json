@@ -29,12 +29,12 @@
             "icon": "lock",
             "children": [
               {
-                "path": "page",
+                "path": "/permission/page",
                 "title": "Page Permission",
                 "roles": ["admin"]
               },
               {
-                "path": "button",
+                "path": "/permission/button",
                 "title": "Button Permission",
                 "roles": ["admin"]
               }
@@ -42,11 +42,11 @@
           },
           {
             "path": "/icon",
+            "title": "Icons", 
+            "icon": "icon", 
             "children": [
               {
-                "path": "index",
-                "title": "Icons", 
-                "icon": "icon", 
+                "path": "/icon/index",
                 "noCache": true
               }
             ]
