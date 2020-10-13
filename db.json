@@ -25,24 +25,18 @@
         "routers": [
           {
             "path": "/permission",
-            "meta": {
-              "title": "Permission",
-              "icon": "icon-xiai"
-            },
+            "title": "Permission",
+            "icon": "lock",
             "children": [
               {
                 "path": "page",
-                "meta": {
-                  "title": "Page Permission",
-                  "roles": ["admin"]
-                }
+                "title": "Page Permission",
+                "roles": ["admin"]
               },
               {
                 "path": "button",
-                "meta": {
-                  "title": "Button Permission",
-                  "roles": ["admin"]
-                }
+                "title": "Button Permission",
+                "roles": ["admin"]
               }
             ]
           },
@@ -51,8 +45,9 @@
             "children": [
               {
                 "path": "index",
-                "name": "Icons",
-                "meta": { "title": "Icons", "icon": "icon", "noCache": true }
+                "title": "Icons", 
+                "icon": "icon", 
+                "noCache": true
               }
             ]
           }
