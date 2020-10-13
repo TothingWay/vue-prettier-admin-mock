@@ -8,14 +8,12 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "login": {
-      "admin": {
-        "token": "admin-token"
-      },
-      "editor": {
-        "token": "editor-token"
-      }
+  "login": {
+    "admin": {
+      "token": "admin-token"
+    },
+    "editor": {
+      "token": "editor-token"
     }
   }
 }
