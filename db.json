@@ -9,14 +9,12 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "data": {
-      "login": {
-        "admin": {
-          "token": "admin-token"
-        },
-        "editor": {
-          "token": "editor-token"
-        }
+    "login": {
+      "admin": {
+        "token": "admin-token"
+      },
+      "editor": {
+        "token": "editor-token"
       }
     }
   }
