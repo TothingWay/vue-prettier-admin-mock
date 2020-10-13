@@ -19,32 +19,20 @@
     },
     "users": {
       "admin-token": {
-        "roles": ["admin"],
         "introduction": "I am a super administrator",
         "name": "Super Admin",
         "routers": [
           {
             "path": "/permission",
-            "alwaysShow": true,
             "name": "Permission",
             "meta": {
               "title": "Permission",
               "icon": "icon-xiai"
-            },
-            "children": [
-              {
-                "path": "page",
-                "name": "PagePermission",
-                "meta": {
-                  "title": "Page Permission"
-                }
-              }
-            ]
+            }
           }
         ]
       },
       "editor-token": {
-        "roles": ["editor"],
         "introduction": "I am an editor",
         "name": "Normal Editor"
       }
