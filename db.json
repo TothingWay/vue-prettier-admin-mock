@@ -21,20 +21,65 @@
       "admin-token": {
         "introduction": "I am a super administrator",
         "name": "Super Admin",
+        "roles": ["admin"],
         "routers": [
           {
             "path": "/permission",
-            "name": "Permission",
             "meta": {
               "title": "Permission",
               "icon": "icon-xiai"
-            }
+            },
+            "children": [
+              {
+                "path": "page",
+                "meta": {
+                  "title": "Page Permission",
+                  "roles": ["admin"]
+                }
+              },
+              {
+                "path": "button",
+                "meta": {
+                  "title": "Button Permission",
+                  "roles": ["admin"]
+                }
+              }
+            ]
+          },
+          {
+            "path": "/icon",
+            "children": [
+              {
+                "path": "index",
+                "name": "Icons",
+                "meta": { "title": "Icons", "icon": "icon", "noCache": true }
+              }
+            ]
           }
         ]
       },
       "editor-token": {
         "introduction": "I am an editor",
-        "name": "Normal Editor"
+        "name": "Normal Editor",
+        "roles": ["editor"],
+        "routers": [
+          {
+            "path": "/permission",
+            "meta": {
+              "title": "Permission",
+              "icon": "icon-xiai"
+            },
+            "children": [
+              {
+                "path": "button",
+                "meta": {
+                  "title": "Button Permission",
+                  "roles": ["editor"]
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   }
