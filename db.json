@@ -16,6 +16,18 @@
       "editor": {
         "token": "editor-token"
       }
+    },
+    "users": {
+      "admin-token": {
+        "roles": ['admin'],
+        "introduction": 'I am a super administrator',
+        "name": 'Super Admin'
+      },
+      "editor-token": {
+        "roles": ['editor'],
+        "introduction": 'I am an editor',
+        "name": 'Normal Editor'
+      }
     }
   }
 }
