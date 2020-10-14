@@ -42,14 +42,9 @@
           },
           {
             "path": "/icon",
-            "children": [
-              {
-                "path": "/icon/index",
-                "title": "Icons", 
-                "icon": "icon", 
-                "noCache": true
-              }
-            ]
+            "title": "Icons", 
+            "icon": "icon", 
+            "noCache": true
           }
         ]
       },
