@@ -42,11 +42,11 @@
           },
           {
             "path": "/icon",
-            "title": "Icons", 
-            "icon": "icon", 
             "children": [
               {
                 "path": "/icon/index",
+                "title": "Icons", 
+                "icon": "icon", 
                 "noCache": true
               }
             ]
