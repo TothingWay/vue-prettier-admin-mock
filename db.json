@@ -26,27 +26,30 @@
           {
             "path": "/permission",
             "title": "Permission",
-            "icon": "lock",
+            "icon": "icon-xiai",
             "children": [
               {
                 "path": "/permission/page",
                 "title": "Page Permission",
+                "icon": "icon-xiai",
                 "roles": ["admin"]
               },
               {
                 "path": "/permission/button",
                 "title": "Button Permission",
+                "icon": "icon-xiai",
                 "roles": ["admin"]
               }
             ]
           },
           {
             "path": "/icon",
+            "icon": "icon-xiai",
             "children": [
               {
                 "path": "/icon/index",
                 "title": "Icons", 
-                "icon": "icon", 
+                "icon": "icon-xiai",
                 "noCache": true
               }
             ]
@@ -69,6 +72,7 @@
                 "path": "button",
                 "meta": {
                   "title": "Button Permission",
+                  "icon": "icon-xiai",
                   "roles": ["editor"]
                 }
               }
