@@ -55,10 +55,10 @@
             ]
           },
           {
-            "path": "/error-log",
+            "path": "/errorLog",
             "children": [
               {
-                "path": "/error-log/index",
+                "path": "/errorLog/index",
                 "title": "Error Log", 
                 "icon": "icon-xiai"
               }
