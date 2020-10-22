@@ -56,12 +56,11 @@
           },
           {
             "path": "/error-log",
-            "redirect": "noRedirect",
             "children": [
               {
                 "path": "/error-log/index",
-                "name": "ErrorLog",
-                "meta": { "title": "Error Log", "icon": "icon-xiai" }
+                "title": "Error Log", 
+                "icon": "icon-xiai"
               }
             ]
           }
