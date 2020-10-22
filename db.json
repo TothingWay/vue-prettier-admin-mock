@@ -48,9 +48,20 @@
             "children": [
               {
                 "path": "/icon/index",
-                "title": "Icons", 
+                "title": "Icons",
                 "icon": "icon-xiai",
                 "noCache": true
+              }
+            ]
+          },
+          {
+            "path": "/error-log",
+            "redirect": "noRedirect",
+            "children": [
+              {
+                "path": "/error-log/index",
+                "name": "ErrorLog",
+                "meta": { "title": "Error Log", "icon": "icon-xiai" }
               }
             ]
           }
