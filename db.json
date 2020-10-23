@@ -26,30 +26,27 @@
           {
             "path": "/permission",
             "title": "Permission",
-            "icon": "icon-xiai",
+            "icon": "lock",
             "children": [
               {
                 "path": "/permission/page",
                 "title": "Page Permission",
-                "icon": "icon-xiai",
                 "roles": ["admin"]
               },
               {
                 "path": "/permission/button",
                 "title": "Button Permission",
-                "icon": "icon-xiai",
                 "roles": ["admin"]
               }
             ]
           },
           {
             "path": "/icon",
-            "icon": "icon-xiai",
             "children": [
               {
                 "path": "/icon/index",
                 "title": "Icons",
-                "icon": "icon-xiai",
+                "icon": "icon",
                 "noCache": true
               }
             ]
@@ -60,7 +57,7 @@
               {
                 "path": "/errorLog/index",
                 "title": "Error Log", 
-                "icon": "icon-xiai"
+                "icon": "bug"
               }
             ]
           }
@@ -75,14 +72,13 @@
             "path": "/permission",
             "meta": {
               "title": "Permission",
-              "icon": "icon-xiai"
+              "icon": "lock"
             },
             "children": [
               {
                 "path": "button",
                 "meta": {
                   "title": "Button Permission",
-                  "icon": "icon-xiai",
                   "roles": ["editor"]
                 }
               }
