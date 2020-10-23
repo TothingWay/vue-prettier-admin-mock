@@ -56,7 +56,7 @@
             "children": [
               {
                 "path": "/errorLog/index",
-                "title": "Error Log", 
+                "title": "Error Log",
                 "icon": "bug"
               }
             ]
@@ -76,7 +76,8 @@
               {
                 "path": "/permission/button",
                 "title": "Button Permission",
-                "roles": ["Admin"]
+                "roles": ["Editor"],
+                "children": []
               }
             ]
           },
@@ -96,7 +97,7 @@
             "children": [
               {
                 "path": "/errorLog/index",
-                "title": "Error Log", 
+                "title": "Error Log",
                 "icon": "bug"
               }
             ]
