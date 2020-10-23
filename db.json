@@ -37,10 +37,7 @@
               {
                 "path": "/permission/button",
                 "title": "Button Permission",
-                "roles": ["admin"],
-                "activeMenu": "/permission/page",
-                "affix": true,
-                "breadcrumb": false
+                "roles": ["admin"]
               }
             ]
           },
