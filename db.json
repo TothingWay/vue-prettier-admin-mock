@@ -38,7 +38,7 @@
                 "path": "/permission/button",
                 "title": "Button Permission",
                 "roles": ["admin"],
-                "activeMenu": "permission/page"
+                "activeMenu": "/permission/page"
               }
             ]
           },
