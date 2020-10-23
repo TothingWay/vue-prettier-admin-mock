@@ -70,17 +70,39 @@
         "routers": [
           {
             "path": "/permission",
-            "meta": {
-              "title": "Permission",
-              "icon": "lock"
-            },
+            "title": "Permission",
+            "icon": "lock",
             "children": [
               {
-                "path": "button",
-                "meta": {
-                  "title": "Button Permission",
-                  "roles": ["Editor"]
-                }
+                "path": "/permission/page",
+                "title": "Page Permission",
+                "roles": ["Admin"]
+              },
+              {
+                "path": "/permission/button",
+                "title": "Button Permission",
+                "roles": ["Admin"]
+              }
+            ]
+          },
+          {
+            "path": "/icon",
+            "children": [
+              {
+                "path": "/icon/index",
+                "title": "Icons",
+                "icon": "icon",
+                "noCache": true
+              }
+            ]
+          },
+          {
+            "path": "/errorLog",
+            "children": [
+              {
+                "path": "/errorLog/index",
+                "title": "Error Log", 
+                "icon": "bug"
               }
             ]
           }
