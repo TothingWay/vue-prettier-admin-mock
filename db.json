@@ -21,7 +21,7 @@
       "admin-token": {
         "introduction": "I am a super administrator",
         "name": "Super Admin",
-        "roles": ["admin"],
+        "roles": ["Admin"],
         "routers": [
           {
             "path": "/permission",
@@ -31,12 +31,12 @@
               {
                 "path": "/permission/page",
                 "title": "Page Permission",
-                "roles": ["admin"]
+                "roles": ["Admin"]
               },
               {
                 "path": "/permission/button",
                 "title": "Button Permission",
-                "roles": ["admin"]
+                "roles": ["Admin"]
               }
             ]
           },
@@ -66,7 +66,7 @@
       "editor-token": {
         "introduction": "I am an editor",
         "name": "Normal Editor",
-        "roles": ["editor"],
+        "roles": ["Editor"],
         "routers": [
           {
             "path": "/permission",
@@ -79,7 +79,7 @@
                 "path": "button",
                 "meta": {
                   "title": "Button Permission",
-                  "roles": ["editor"]
+                  "roles": ["Editor"]
                 }
               }
             ]
