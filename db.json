@@ -74,11 +74,6 @@
             "icon": "lock",
             "children": [
               {
-                "path": "/permission/page",
-                "title": "Page Permission",
-                "roles": ["Admin"]
-              },
-              {
                 "path": "/permission/button",
                 "title": "Button Permission",
                 "roles": ["Admin"]
